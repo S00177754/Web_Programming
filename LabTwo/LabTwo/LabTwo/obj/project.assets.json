@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\S00177754\\.nuget\\packages\\": {},
+    "C:\\Users\\ronan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S00177754\\Documents\\GitHub\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\LabTwo.csproj",
+      "projectUniqueName": "C:\\Users\\ronan\\Desktop\\GitHub Repositories\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\LabTwo.csproj",
       "projectName": "LabTwo",
-      "projectPath": "C:\\Users\\S00177754\\Documents\\GitHub\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\LabTwo.csproj",
-      "packagesPath": "C:\\Users\\S00177754\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S00177754\\Documents\\GitHub\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\obj\\",
+      "projectPath": "C:\\Users\\ronan\\Desktop\\GitHub Repositories\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\LabTwo.csproj",
+      "packagesPath": "C:\\Users\\ronan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ronan\\Desktop\\GitHub Repositories\\Web_Programming\\LabTwo\\LabTwo\\LabTwo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\S00177754\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ronan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
