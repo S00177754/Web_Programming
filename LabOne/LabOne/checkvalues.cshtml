@@ -1,0 +1,41 @@
+﻿@{
+    string message = "";
+
+    if (IsPost)
+    {
+        message += "<h2> Your form was submitted using the method POST with the following key value pairs.</h2><ul>";
+
+
+
+        foreach (string key in Request.Form.Keys)
+        {
+            message += String.Format("<li> Key : {0} Value : {1} </li>", key, Request.Form[key]);
+        }
+        message += "</ul>";
+    }
+    else
+    {
+        message += "<h2> Your form was submitted using the method GET with the following key value pairs.</h2><ul>";
+        foreach (string key in Request.QueryString.Keys)
+        {
+            message += String.Format("<li> Key : {0} Value : {1} </li>", key, Request.QueryString[key]);
+        }
+        message += "</ul>";
+    }
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Form Values</title>
+</head>
+<body>
+    <h2>Page to check Form Values</h2>
+
+    @Html.Raw(message)
+
+</body>
+</html>

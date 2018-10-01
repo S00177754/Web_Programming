@@ -1,0 +1,133 @@
+﻿@{
+    //Variables
+    string day = Request.QueryString["day"];
+    string month = Request.QueryString["month"];
+    string season = Request.QueryString["season"];
+
+
+    string[] seasonArray = { };
+
+
+    int counterSeason = 0;
+
+    if(season != null)
+    {
+        seasonArray = season.Split(',');
+
+        foreach (var item in seasonArray)
+        {
+            counterSeason++;
+        }
+
+        
+    }
+
+
+
+}
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Lab2 WorkSheet 4</title>
+
+    <link href="form.css" rel="stylesheet" />
+
+</head>
+
+<body class="center">
+    <h1>Week 2</h1>
+
+    <form method="get">
+        <h5>Day Of The Week</h5>
+        <label for="Monday">Monday</label>
+        <input type="radio" name="day" value="Monday" id="Monday" />
+        <br />
+        <label for="Tuesday">Tuesday</label>
+        <input type="radio" name="day" value="Tuesday" id="Tuesday" />
+        <br />
+        <label for="Wednesday">Wednesday</label>
+        <input type="radio" name="day" value="Wednesday" id="Wednesday" />
+        <br />
+        <label for="Thursday">Thursday</label>
+        <input type="radio" name="day" value="Thursday" id="Thursday" />
+        <br />
+        <label for="Friday">Friday</label>
+        <input type="radio" name="day" value="Friday" id="Friday" />
+        <br />
+        <label for="Saturday">Saturday</label>
+        <input type="radio" name="day" value="Saturday" id="Saturday" />
+        <br />
+        <label for="Sunday">Sunday</label>
+        <input type="radio" name="day" value="Sunday" id="Sunday" />
+        <br />
+
+        <h5>Month</h5>
+        <select name="month" id="Month">
+            <option value="January">January</option>
+            <option value="Feburary">Feburary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <br />
+        <h5>Season</h5>
+        <select name="season" id="Season" multiple>
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Fall">Fall</option>
+            <option value="Winter">Winter</option>
+        </select>
+        <br/>
+
+        <label for="location">What's your location?</label>
+        <input type="text" id="location" list="suggestions"/>
+
+        <datalist id="suggestions">
+            <option>Sligo</option>
+            <option>Dublin</option>
+            <option>Derry</option>
+            <option>Donegal</option>
+            <option>Kerry</option>
+            <option>Leitrim</option>
+            <option>Longford</option>
+            <option>Laois</option>
+            <option>Limerick</option>
+            <option>Louth</option>
+        </datalist>
+
+        <br/>
+        <button type="submit" >Submit</button>
+    </form>
+
+    <h3>You have chosen: @day</h3>
+    <h3>You have chosen: @month</h3>
+    <h3>You have selected: @counterSeason</h3>
+
+    <h3>Seasons selected:</h3>
+    <ul>
+        @if (season != null)
+        {
+            foreach (var item in seasonArray)
+            {    
+            <li>@item</li>
+            
+            }
+        }
+    </ul>
+    
+</body>
+
+</html>
