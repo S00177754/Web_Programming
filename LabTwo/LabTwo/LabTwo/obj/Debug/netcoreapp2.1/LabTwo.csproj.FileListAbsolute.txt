@@ -45,3 +45,7 @@ C:\Users\ronan\Desktop\GitHub Repositories\Web_Programming\LabTwo\LabTwo\LabTwo\
 C:\Users\ronan\Desktop\GitHub Repositories\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.dll
 C:\Users\ronan\Desktop\GitHub Repositories\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.pdb
 C:\Users\ronan\Desktop\GitHub Repositories\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.csproj.CopyComplete
+C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\greeting.g.cshtml.cs
+C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\handlerdemo.g.cshtml.cs
+C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\namegreeting.g.cshtml.cs
+C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\Adder.g.cshtml.cs

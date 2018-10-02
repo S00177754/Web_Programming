@@ -1,0 +1,29 @@
+﻿@page
+@model LabTwo.Pages.handlerdemoModel
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>handlerdemo</title>
+</head>
+
+<body>
+    <h3>@Model.Message</h3>
+
+    <form method="post">
+        <button type="submit">Click to Post</button>
+    </form>
+
+    <section>
+        <a href=" /handlerdemo">Click to Get</a>
+    </section>
+</body>
+
+</html>
+

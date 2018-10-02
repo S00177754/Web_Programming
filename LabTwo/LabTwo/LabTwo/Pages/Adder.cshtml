@@ -1,0 +1,46 @@
+﻿@page
+@model LabTwo.Pages.AdderModel
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Adder</title>
+</head>
+
+<body>
+    <form method="post">
+        <label for="numOne">Number 1:</label>
+        <input type="number" name="numOne" />
+
+        <label for="numTwo">Number 2:</label>
+        <input type="number" name="numTwo" />
+        <br />
+        <input type="radio" id="add"
+               name="action" value="plus" checked />
+        <label for="add">Addition</label>
+        <br />
+        <input type="radio" id="subtract"
+               name="action" value="minus" />
+        <label for="subtract">Subtraction</label>
+        <br />
+        <input type="radio" id="divide"
+               name="action" value="divide" />
+        <label for="divide">Division</label>
+        <br />
+        <input type="radio" id="multiply"
+               name="action" value="multiply" />
+        <label for="multiply">Multiplication</label>
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+    <h1>@Model.Message</h1>
+</body>
+
+</html>

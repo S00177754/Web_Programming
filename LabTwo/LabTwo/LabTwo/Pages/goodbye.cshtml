@@ -1,16 +1,7 @@
 ﻿@page
 @{
     Layout = null;
-    string timePeriod = "";
-
-    if(11 < DateTime.Now.TimeOfDay.TotalHours)
-    {
-        timePeriod = "Afternoon";
-    }
-    else
-    {
-        timePeriod = "Morning";
-    }
+    
 
 }
 
@@ -28,11 +19,7 @@
 <body>
     <h1> Goodbye from the goodbye.cshml file</h1>
 
-    <h2>
-        Its @timePeriod
-    </h2>
-
-    <h3>@DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss tt")</h3>
+    <h3>@DateTime.Now.ToShortTimeString()</h3>
 
 </body>
 

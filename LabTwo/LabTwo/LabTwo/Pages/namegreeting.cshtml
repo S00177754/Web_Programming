@@ -1,0 +1,27 @@
+﻿@page
+@model LabTwo.Pages.namegreetingModel
+@{
+    Layout = null;
+
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>namegreeting</title>
+</head>
+
+<body>
+    <form method="post">
+        <input type="text" name="firstname" placeholder="First Name" />
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>@Model.Message</h1>
+</body>
+
+</html>

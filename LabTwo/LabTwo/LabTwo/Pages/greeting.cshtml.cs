@@ -7,11 +7,23 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace LabTwo.Pages
 {
+    
+
     public class greetingModel : PageModel
     {
+        public string Message { get; set; } = "Hello";
+
         public void OnGet()
         {
 
+            if (11 < DateTime.Now.Hour)
+            {
+                Message = "Afternoon";
+            }
+            else
+            {
+                Message = "Morning";
+            }
         }
     }
 }
