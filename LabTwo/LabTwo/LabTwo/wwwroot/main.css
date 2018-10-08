@@ -1,0 +1,21 @@
+﻿body 
+{
+
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.numberBoxes{
+    margin-bottom:10px;
+}
+
+#numberSection{
+    border: 1px solid black;
+}
+

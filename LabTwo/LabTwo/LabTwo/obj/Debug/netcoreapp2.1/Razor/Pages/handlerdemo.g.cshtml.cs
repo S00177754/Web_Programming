@@ -52,7 +52,7 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(155, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "825f35dbbb754d41b2a42ba3853c9efc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93f403cba3ee4ab0aa14eda079daa5b0", async() => {
                 BeginContext(161, 93, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>handlerdemo</title>\r\n");
                 EndContext();
@@ -72,7 +72,7 @@ namespace AspNetCore
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(265, 222, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e28151d3e61044ffa8978bd42e4fae6d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5586276bdc94f6ca44f5190f8f5516a", async() => {
                 BeginContext(271, 10, true);
                 WriteLiteral("\r\n    <h3>");
                 EndContext();
@@ -87,7 +87,7 @@ namespace AspNetCore
                 WriteLiteral("</h3>\r\n\r\n    ");
                 EndContext();
                 BeginContext(308, 87, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b3e6a4a226949fd987fe0d5acc1ed3d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "09b904e22bec4c7fb31b1baabbbf4bb3", async() => {
                     BeginContext(328, 60, true);
                     WriteLiteral("\r\n        <button type=\"submit\">Click to Post</button>\r\n    ");
                     EndContext();
