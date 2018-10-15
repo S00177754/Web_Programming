@@ -54,7 +54,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(164, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33f04e824c9848ff89357371064eaeae", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a781e2cba4d49279a863af78d138489", async() => {
                 BeginContext(170, 94, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>namegreeting</title>\r\n");
                 EndContext();
@@ -74,12 +74,12 @@ namespace AspNetCore
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(275, 205, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aaec3b3bb49543319f11939126613a70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f9ab78cc733435ca9e8b6729db1e95f", async() => {
                 BeginContext(281, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(287, 153, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8aa4c7fcb39d40fe8016e046c3b3bd7d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4166746e5464d39889102a834c596f8", async() => {
                     BeginContext(307, 126, true);
                     WriteLiteral("\r\n        <input type=\"text\" name=\"firstname\" placeholder=\"First Name\" />\r\n        <button type=\"submit\">Submit</button>\r\n    ");
                     EndContext();

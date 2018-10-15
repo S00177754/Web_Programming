@@ -1,0 +1,57 @@
+﻿@page
+@model LabTwo.Pages.taghelpplayModel
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tag Help Play</title>
+</head>
+
+<body>
+    <form method="post">
+        <label asp-for="Number1">Enter your first number:</label>
+        <input asp-for="Number1" />
+        <br />
+        <label asp-for="ReferenceInt"></label>
+        <input asp-for="ReferenceInt" />
+        <br />
+        <label asp-for="DoubleNormal"></label>
+        <input asp-for="DoubleNormal" />
+        <br />
+        <label asp-for="DoubleReference"></label>
+        <input asp-for="DoubleReference" />
+        <br />
+        <label asp-for="DecimalNormal"></label>
+        <input asp-for="DecimalNormal" />
+        <br />
+        <label asp-for="DecimalReference"></label>
+        <input asp-for="DecimalReference" />
+        <br />
+        <label asp-for="FloatNormal"></label>
+        <input asp-for="FloatNormal" />
+        <br />
+        <label asp-for="FloatReference"></label>
+        <input asp-for="FloatReference" />
+        <br />
+        <label asp-for="StringText"></label>
+        <input asp-for="StringText" />
+        <br/>
+        <label asp-for="dateTime"></label>
+        <input asp-for="dateTime" />
+        <br/>
+        <label asp-for="dateTimeReference"></label>
+        <input asp-for="dateTimeReference" />
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+
+   
+</body>
+
+</html>

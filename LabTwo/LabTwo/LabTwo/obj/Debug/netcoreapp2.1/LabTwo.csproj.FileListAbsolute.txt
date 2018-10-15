@@ -50,3 +50,4 @@ C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Deb
 C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\namegreeting.g.cshtml.cs
 C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\Adder.g.cshtml.cs
 C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\htmlvalidation.g.cshtml.cs
+C:\Users\S00177754\Documents\GitHub\Web_Programming\LabTwo\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\Razor\Pages\taghelpplay.g.cshtml.cs
