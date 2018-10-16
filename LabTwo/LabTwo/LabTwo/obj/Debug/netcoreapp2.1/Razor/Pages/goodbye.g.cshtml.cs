@@ -51,7 +51,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(73, 106, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d062359fcb844b68cec6feb4de89bdc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc7197c40fd6457b910e5d320c4bc0d7", async() => {
                 BeginContext(79, 93, true);
                 WriteLiteral("\r\n\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>goodbye</title>\r\n\r\n");
                 EndContext();
@@ -71,7 +71,7 @@ namespace AspNetCore
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(183, 118, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de8d9fd0e26f43c9846ccbdd92abd88c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8ce9db0c14f44c19c913b4de982a09a", async() => {
                 BeginContext(189, 63, true);
                 WriteLiteral("\r\n    <h1> Goodbye from the goodbye.cshml file</h1>\r\n\r\n    <h3>");
                 EndContext();

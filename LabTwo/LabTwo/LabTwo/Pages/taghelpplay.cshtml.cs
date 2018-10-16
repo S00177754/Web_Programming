@@ -47,5 +47,17 @@ namespace LabTwo.Pages
         [BindProperty]
         public DateTime? dateTimeReference { get; set; }
 
+        [BindProperty]
+        public bool isContactAllowed { get; set; }
+
+        [BindProperty]
+        public string Season { get; set; }
+
+        [BindProperty]
+        public string[] SeasonList { get; set; } = { "", "", "", "" };
+
+        [BindProperty]
+        public bool BrowserDataList { get; set; }
+
     }
 }
