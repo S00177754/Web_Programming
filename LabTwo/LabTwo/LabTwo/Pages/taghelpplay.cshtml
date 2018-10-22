@@ -67,34 +67,34 @@
             <option value="Winter">Winter</option>
         </select>
 
-        <label for="Google Chrome">Google Chrome
-            <input type="checkbox" id="Google Chrome" value="Google Chrome" asp-for="BrowserDataList" />
+        @*<label for="Google Chrome">Google Chrome
+            <input type="checkbox" id="Google Chrome" value=BrowserDataList[0] asp-for="BrowserDataList" />
         </label>
 
         <label for="Microsoft Edge">
             Microsoft Edge
-            <input type="checkbox" id="Microsoft Edge" value="Microsoft Edge" asp-for="BrowserDataList" />
+            <input type="checkbox" id="Microsoft Edge" value=BrowserDataList[0] asp-for="BrowserDataList" />
         </label>
 
         <label for="Internet Explorer">Internet Explorer
-            <input type="checkbox" id="Internet Explorer" value="Internet Explorer" asp-for="BrowserDataList" />
+            <input type="checkbox" id="Internet Explorer" value=BrowserDataList[0] asp-for="BrowserDataList" />
         </label>
 
         <label for="Firefox">Firefox
-            <input type="checkbox" id="Firefox" value="Firefox" asp-for="BrowserDataList" />
+            <input type="checkbox" id="Firefox" value=BrowserDataList[0] asp-for="BrowserDataList" />
         </label>
 
         <label for="Safari">Safari
-            <input type="checkbox" id="Safari" value="Safari" asp-for="BrowserDataList" />
-        </label>
+            <input type="checkbox" id="Safari" value=BrowserDataList[0] asp-for="BrowserDataList" />
+        </label>*@
+
+        <select asp-for="Connaught" asp-items="Model.Connaughts">
+            <option value="">--Pick One--</option>
+        </select>
+        
 
             <button type="submit">Submit</button>
 </form>
-
-    <h1>First value:</h1>
-    <h3>@Model.SeasonList[0]</h3>
-
-
 
 </body>
 
