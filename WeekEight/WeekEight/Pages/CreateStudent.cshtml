@@ -1,0 +1,59 @@
+﻿@page
+@model CreateStudentModel
+@{
+}
+
+
+<form method="post">
+    <div asp-validation-summary=All></div>
+
+    <div>
+        <label asp-for=Student.FirstName></label>
+        <input asp-for=Student.FirstName>
+        <span asp-validation-for=Student.FirstName></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.LastName></label>
+        <input asp-for=Student.LastName>
+        <span asp-validation-for=Student.LastName></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.StudentID></label>
+        <input asp-for=Student.StudentID>
+        <span asp-validation-for=Student.StudentID></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.DateOfBirth></label>
+        <input asp-for=Student.DateOfBirth>
+        <span asp-validation-for=Student.DateOfBirth></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.NumberOfModules></label>
+        <input asp-for=Student.NumberOfModules>
+        <span asp-validation-for=Student.NumberOfModules></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.Height></label>
+        <input asp-for=Student.Height>
+        <span asp-validation-for=Student.Height></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.Email></label>
+        <input asp-for=Student.Email>
+        <span asp-validation-for=Student.Email></span>
+    </div>
+
+    <div>
+        <label asp-for=Student.EmailConfirm></label>
+        <input asp-for=Student.EmailConfirm>
+        <span asp-validation-for=Student.EmailConfirm></span>
+    </div>
+    <p>@Model.message</p>
+    <button type="submit">Submit</button>
+</form>

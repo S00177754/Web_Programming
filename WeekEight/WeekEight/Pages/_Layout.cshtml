@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - S00177754</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    
+</head>
+<body>  
+    @RenderBody()
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>  
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <footer>
+        <h4>Ronan &copy;2018 12/11/2018</h4>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
