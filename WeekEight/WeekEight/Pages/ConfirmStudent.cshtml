@@ -1,0 +1,23 @@
+﻿@page
+@model WeekEight.Pages.ConfirmStudentModel
+@{
+    ViewData["Title"] = "ConfirmStudent";
+}
+
+<h2>ConfirmStudent</h2>
+@if (Model.Error == false)
+{
+    <p>ID: @Model.StudentConfirm.StudentID</p>
+    <p>First Name:@Model.StudentConfirm.FirstName</p>
+    <p>Last Name:@Model.StudentConfirm.LastName</p>
+    <p>Height: @Model.StudentConfirm.Height</p>
+    <p>DOB: @Model.StudentConfirm.DateOfBirth.ToShortDateString()</p>
+    <p>Modules: @Model.StudentConfirm.NumberOfModules</p>
+    <p> Email: @Model.StudentConfirm.Email</p>
+    <a class="button" href="CreateStudent">Go Back And Edit</a>
+    <a class="button" href="Goodbye">Submit</a>
+}
+else
+{
+    <h3>You Got Here In Error</h3>
+}
